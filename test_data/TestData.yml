@@ -1,0 +1,18 @@
+amazon_url: https://www.amazon.com
+search_input: twotabsearchtextbox
+go_button: //input[@value='Go']
+see_all: //*[contains(text(), "See All") and @class="a-expander-prompt"]
+toys_and_games: //h4[contains(text(), "Toys & Games")]
+low_price: low-price
+low_value: 10
+high-price: high-price
+high_value: 150
+search_button: //input[@class='a-button-input' and @value='Go']
+14_years_and_up: //*[text() = '14 Years & Up']
+lego_harry_potter: //a[@title="LEGO Harry Potter and The Chamber of Secrets Aragog's Lair 75950 Building Kit (157 Pieces)"]
+quantity_button: //select[@name='quantity']
+desired_quantity: '2'
+add_to_cart_button: add-to-cart-button
+view_cart_button: //span[@id='attach-sidesheet-view-cart-button']/span/input
+active_cart_button: sc-subtotal-label-activecart
+test_orderFirstHarryPotterLegoToy_exp_result: 'Subtotal (2 items): $25.78'
